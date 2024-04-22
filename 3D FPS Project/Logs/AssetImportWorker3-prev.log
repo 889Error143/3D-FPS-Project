@@ -1,0 +1,538 @@
+Unity Editor version:    2022.3.12f1 (4fe6e059c7ef)
+Branch:                  2022.3/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.4 (Build 23E214)
+Darwin version:          23.4.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+/Users/simonparedes143/Documents/GitHub/3D-FPS-Project/3D FPS Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+52304
+Successfully changed project path to: /Users/simonparedes143/Documents/GitHub/3D-FPS-Project/3D FPS Project
+Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/simonparedes143/Documents/GitHub/3D-FPS-Project/3D FPS Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8691825344] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 967887222 [EditorId] 967887222 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8691825344] Host "[IP] 10.94.19.167 [Port] 0 [Flags] 2 [Guid] 967887222 [EditorId] 967887222 [Version] 1048832 [Id] OSXEditor(0,mac-studio.rusd.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 2.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/simonparedes143/Documents/GitHub/3D-FPS-Project/3D FPS Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M2 Max (high power)
+Metal devices available: 1
+0: Apple M2 Max (high power)
+Using device Apple M2 Max (high power)
+Initializing Metal device caps: Apple M2 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56321
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000942 seconds.
+- Loaded All Assemblies, in  0.171 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.125 seconds
+Domain Reload Profiling: 296ms
+	BeginReloadAssembly (38ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (38ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (79ms)
+			TypeCache.Refresh (78ms)
+				TypeCache.ScanAssembly (71ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (93ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.283 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.289 seconds
+Domain Reload Profiling: 573ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (104ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (97ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (28ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (10ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.12f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3111 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (51.4 KB). Loaded Objects now: 3573.
+Memory consumption went from 133.4 MB to 133.3 MB.
+Total: 2.100125 ms (FindLiveObjects: 0.102792 ms CreateObjectMapping: 0.045708 ms MarkObjects: 1.890334 ms  DeleteObjects: 0.060791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10421.088794 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Pallet_Small_Decorated_B.fbx
+  artifactKey: Guid(e2828e13095a44352a2db4321f2c3c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Pallet_Small_Decorated_B.fbx using Guid(e2828e13095a44352a2db4321f2c3c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86453b29d84603ca68077c0b30bf593') in 0.089384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.037859 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Beam.obj
+  artifactKey: Guid(da8ba779a4855499a80a9e2925a0bc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Beam.obj using Guid(da8ba779a4855499a80a9e2925a0bc83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e27c0dc2249e6127eecd013c0da9672') in 0.010366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Cube.obj
+  artifactKey: Guid(ea6fc7bf35a094fdfbf9070eecd7e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Cube.obj using Guid(ea6fc7bf35a094fdfbf9070eecd7e5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9cd93898f1d4d3ab6cb147c9024404c') in 0.008665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 21.617165 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Floor.obj
+  artifactKey: Guid(1fb1163fb10d24074b75d71edcf53d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Floor.obj using Guid(1fb1163fb10d24074b75d71edcf53d0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecccb7ae92358b253d3a023517f6ce52') in 0.012867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Floor_Hole.fbx
+  artifactKey: Guid(62bfc6f9414154745ac1a8642c95af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Floor_Hole.fbx using Guid(62bfc6f9414154745ac1a8642c95af64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8c30a459b12781e2096cb5e4876a0c') in 0.008350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Pillar.obj
+  artifactKey: Guid(b4bc713eaf2da477a88f88ef80dc1bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Pillar.obj using Guid(b4bc713eaf2da477a88f88ef80dc1bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81e6c5f8feb244e15c8d077dbd95f73') in 0.009465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Primitive_Slope_Half_OuterCorner.fbx
+  artifactKey: Guid(641150e53160044e4b5207131a428397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Primitive_Slope_Half_OuterCorner.fbx using Guid(641150e53160044e4b5207131a428397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ff431457ed1739db3accf52923d63d') in 0.006618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Slope_InnerCorner.obj
+  artifactKey: Guid(b1672fdeea6324c8eb28fc1c24316084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Slope_InnerCorner.obj using Guid(b1672fdeea6324c8eb28fc1c24316084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe77a62f76a35182a3d9237450c44b3') in 0.008802 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Slope_OuterCorner.fbx
+  artifactKey: Guid(5cde64c34aa4b4ee1aa15ebf898e00f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Slope_OuterCorner.fbx using Guid(5cde64c34aa4b4ee1aa15ebf898e00f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5387b3ded59af184f28a847d7e9c7b') in 0.006558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Stairs.obj
+  artifactKey: Guid(95708d5b21b2b4ef8959a2cc069c1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Stairs.obj using Guid(95708d5b21b2b4ef8959a2cc069c1b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e036c955a30f429d062cf720f873a38b') in 0.008332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Slope_Half.obj
+  artifactKey: Guid(d38b680c6267a4296849ef45efe263d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Slope_Half.obj using Guid(d38b680c6267a4296849ef45efe263d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d70d12c6fb5882d6a19ff64ddd1162') in 0.009174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Primitive_Pillar.fbx
+  artifactKey: Guid(1a58b549695cd4ed3900d14c7364d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Primitive_Pillar.fbx using Guid(1a58b549695cd4ed3900d14c7364d6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113c5583848a76bc43262bf29ef83ee1') in 0.007018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Pillar.fbx
+  artifactKey: Guid(d5bc8b4d724634fa9875888e203b6adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Pillar.fbx using Guid(d5bc8b4d724634fa9875888e203b6adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '439832d8d36795c94ad96f77a5960436') in 0.006453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.365746 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Stairs_Half.fbx
+  artifactKey: Guid(109b91255eaac404baee30b3e534c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Stairs_Half.fbx using Guid(109b91255eaac404baee30b3e534c584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2a537588248e06eb5105a67376d028') in 0.012876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Wall.fbx
+  artifactKey: Guid(948c6d7ef0a7545bba9d17d4d442eb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Wall.fbx using Guid(948c6d7ef0a7545bba9d17d4d442eb5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bc0d0209bfcde228bfc76e9c21dc5d') in 0.009617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Wall_Half.obj
+  artifactKey: Guid(c678ca4b6a7f74b67be69750f2736d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Wall_Half.obj using Guid(c678ca4b6a7f74b67be69750f2736d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e904ecb4ad89141a7ab2db436b8e667f') in 0.010663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Primitive_Wall.fbx
+  artifactKey: Guid(9c94125c8173c46799689adc43ad1cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Primitive_Wall.fbx using Guid(9c94125c8173c46799689adc43ad1cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b561f64fae8a86ef67ea51dd5756b3f4') in 0.006703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000899 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Wall_Short.fbx
+  artifactKey: Guid(de97fc94d10de494fa6335642b8a6095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Primitive_Wall_Short.fbx using Guid(de97fc94d10de494fa6335642b8a6095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b833cea8a6fe3876323fd0ac3ca6f7b') in 0.007525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Window.obj
+  artifactKey: Guid(195bf182f165d4c7cb9f87783af23fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Primitive_Window.obj using Guid(195bf182f165d4c7cb9f87783af23fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72584264d4d2923bd8cecb9487dfdfd4') in 0.008684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.669313 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/table_medium_Decorated.obj
+  artifactKey: Guid(d4f05fe23d8434ca9acc526a17720ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/table_medium_Decorated.obj using Guid(d4f05fe23d8434ca9acc526a17720ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e7a7611b601b2b24431752badc93f3') in 0.016575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target.fbx
+  artifactKey: Guid(516b6360781e04de885da18103cee35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target.fbx using Guid(516b6360781e04de885da18103cee35a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf8ae7792de0626c211f05dfcb4da22d') in 0.009810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.016717 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_A.fbx
+  artifactKey: Guid(f24b953a5f0974e96bf841488b7b29c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_A.fbx using Guid(f24b953a5f0974e96bf841488b7b29c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc481e2952439a0b8319de34cf297e3') in 0.008717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_B.fbx
+  artifactKey: Guid(ad880345abfce48a39c0e53d1d0dd75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_B.fbx using Guid(ad880345abfce48a39c0e53d1d0dd75f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '538f947d15ee0d47eefab3d8dc89b66c') in 0.007795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_C.fbx
+  artifactKey: Guid(0552706ece6c04e1f850997ec51a1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_C.fbx using Guid(0552706ece6c04e1f850997ec51a1a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3600ce1ee4c50c93f63bff8084253d6') in 0.006544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.063416 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_E.fbx
+  artifactKey: Guid(217a2e59755cc4d1782cf6b2b5c9c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_pieces_E.fbx using Guid(217a2e59755cc4d1782cf6b2b5c9c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e1adf07639de865277f0a7186ae56f') in 0.008901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_pieces_F.obj
+  artifactKey: Guid(dacf343827c474262afa1d91a900ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_pieces_F.obj using Guid(dacf343827c474262afa1d91a900ed62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083446e5185a02c7b5122e8f14a8c81') in 0.009446 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_small.obj
+  artifactKey: Guid(c00b4124dedb840879b9d1449662b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_small.obj using Guid(c00b4124dedb840879b9d1449662b51a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee40947006afddb87e66557c463ad71') in 0.009150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.812107 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_stand_A.obj
+  artifactKey: Guid(ce5278e9593684262b2b5dc823fc6b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_stand_A.obj using Guid(ce5278e9593684262b2b5dc823fc6b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06226fc9ac49bce4a9f9db08446d82fa') in 0.015792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_wall_large_A.obj
+  artifactKey: Guid(af1e86c0d58a34df7904a6e3bf74a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/target_wall_large_A.obj using Guid(af1e86c0d58a34df7904a6e3bf74a814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9be5d53371d44b46a275ea27fdabd9d') in 0.011124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/target_stand_A.fbx
+  artifactKey: Guid(7f9a7d509a1d643918f906c95bab40ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/target_stand_A.fbx using Guid(7f9a7d509a1d643918f906c95bab40ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866eeed45da6bfbd3113e93af56a41d3') in 0.008084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001382 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/target_wall_large_A.fbx
+  artifactKey: Guid(ab4b8ec09c88e451da700fcf05b27639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/target_wall_large_A.fbx using Guid(ab4b8ec09c88e451da700fcf05b27639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397e16701dc1e20abe9969733c11f81f') in 0.007197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_wall_large_A.fbx
+  artifactKey: Guid(04b4952820dcd4da38be1e5c706be0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/target_wall_large_A.fbx using Guid(04b4952820dcd4da38be1e5c706be0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2145fe175915d14e2ed5d7cea0e3e90') in 0.006844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/target_wall_large_B.fbx
+  artifactKey: Guid(392c421b2fbfe47db81ad35bbfc178b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/target_wall_large_B.fbx using Guid(392c421b2fbfe47db81ad35bbfc178b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6927763748331fbf89fe10b518a393f6') in 0.007640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.653565 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall.fbx
+  artifactKey: Guid(d83a423d7114e438a915a3ed2a42ef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall.fbx using Guid(d83a423d7114e438a915a3ed2a42ef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdbe32cb2ba378f483fb6b14bfa23d4d') in 0.014154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Doorway.fbx
+  artifactKey: Guid(e23aa0c3e89514f6185a1e73c4e72dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Doorway.fbx using Guid(e23aa0c3e89514f6185a1e73c4e72dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56195b241cbbcf010d3bd7a1e262a37') in 0.009881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Wall_Half.fbx
+  artifactKey: Guid(a14717ff169844f2488f78ca1039cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx/Wall_Half.fbx using Guid(a14717ff169844f2488f78ca1039cc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9734097960346147a2dc1cf59a17f09f') in 0.008509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Target.fbx
+  artifactKey: Guid(9003d42ec8cfd43d39ad77cb8d0a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Target.fbx using Guid(9003d42ec8cfd43d39ad77cb8d0a001a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cdd858a9b3bfb843b96e1e0b3e8d35a') in 0.008508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Window_Open.fbx
+  artifactKey: Guid(003ea22dedc26432a9e253c8f8bc12a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Window_Open.fbx using Guid(003ea22dedc26432a9e253c8f8bc12a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c46293c8bb9bc6a4a9e520f3d36152') in 0.006695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Weaponrack_Decorated.obj
+  artifactKey: Guid(cb519b65e232d44078f4649b6a285881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Weaponrack_Decorated.obj using Guid(cb519b65e232d44078f4649b6a285881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a528e35780ade034d63410f5d58b04a5') in 0.009991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Wall_Window_Closed.obj
+  artifactKey: Guid(92cfd9af8d1144d4d859ed70e9fdff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/obj/Wall_Window_Closed.obj using Guid(92cfd9af8d1144d4d859ed70e9fdff60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e084ed99848e2a7ee6036235ee35ecb8') in 0.008191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Half.fbx
+  artifactKey: Guid(51c8184148f7e4f89b39a657c308ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Half.fbx using Guid(51c8184148f7e4f89b39a657c308ed3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22e0e2bf6f480f88f1c3e61c90aa84f') in 0.006923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Window_Closed.fbx
+  artifactKey: Guid(22231bb7195d84c948272f68c28105d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Wall_Window_Closed.fbx using Guid(22231bb7195d84c948272f68c28105d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30da0fec6da9072eedd865b5ba423ae2') in 0.007438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 47.218064 seconds.
+  path: Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Workbench.fbx
+  artifactKey: Guid(4bfffc5fe37544343a949456fee0e6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/KayKit_Prototype_Bits_1.0_EXTRA/Assets/fbx(unity)/Workbench.fbx using Guid(4bfffc5fe37544343a949456fee0e6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33928711bc38cac0dff1c4cc40709e75') in 0.015211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
